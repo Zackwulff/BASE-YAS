@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 contract Escrow {
     address public buyer;
-    address public seller;
+    address public seller
     address public escrowAgent;
     uint256 public amount;
     bool public productDelivered;
